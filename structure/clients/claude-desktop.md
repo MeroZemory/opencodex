@@ -91,3 +91,4 @@ The explicit sync coordinator also accepts Cline CLI as a separate file integrat
 `claudeCode.stabilizePromptCache` is a default-off operator setting for
 [translated instruction stabilization](../data-planes/inbound-compat.md#opt-in-claude-instruction-stabilization).
 Config JSON preserves the boolean; only literal true activates the role-changing transform.
+Native Chat applies qualifying effort ceilings independently of model pins; pin selection precedes the cap and only pins or cap rewrites enter wire mapping. The [catalog effort contract](../catalog.md#ultra-reasoning-level) records the V1/compaction exemptions and caller-preservation boundary.
